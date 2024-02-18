@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form in HTML</title>
+</head>
+<body>
+    <h4>Registration Form</h4>
+    <form action="/action.php">
+        <input type="text" placeholder="username">
+        <br><br>
+        <input type="password" placeholder="password">
+
+
+        <h5>Select your class</h5>
+        <label for="101">
+        <input type="radio" value="Class XI" name="class" id="101">Class XI
+        </label>
+        <br><br>
+        <label for="102">
+        <input type="radio" value="Class XII" name="class" id="102">Class XII
+        </label>
+        <br><br>
+        <h5>Select your fav subject</h5>
+        <label for="math">
+            <input type="checkbox" value="math" name="subject" id="math">Math
+        </label>
+        <br><br>
+        <label for="english">
+            <input type="checkbox" value="english" name="subject" id="english">English
+        </label>
+        <br><br>
+        <label for="urdu">
+            <input type="checkbox" value="urdu" name="subject" id="urdu">Urdu
+        </label>
+        <br><br>
+        <h5>Select your city</h5>
+        <select name="city" id="">
+            <option value="Delhi">Delhi</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Banglore">Banglore</option>
+            <option value="Pune">Pune</option>
+        </select>
+        <br><br>
+        <h5>Feedback</h5>
+        <textarea name="feedback" id="feedback" cols="30" rows="10" placeholder="please give your valuable feedback"></textarea>
+        <br>
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
